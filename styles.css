@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+.project {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}  
+
+
+
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode header,
+.dark-mode footer {
+    background-color: #111;
+}
+
